@@ -118,7 +118,7 @@ function Index() {
           <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl mb-4 shadow-[var(--shadow-elegant)]" style={{ background: "var(--gradient-hero)" }}>
             <ShieldCheck className="w-8 h-8 text-primary-foreground" />
           </div>
-          <h1 className="text-3xl sm:text-4xl font-bold text-foreground mb-2">نادي الطلاب</h1>
+          <h1 className="text-3xl sm:text-4xl font-bold text-foreground mb-2">نادي الإبداع وريادة الأعمال</h1>
           <p className="text-muted-foreground">تحقق من تسجيلك أو انضم إلينا الآن</p>
         </div>
 
@@ -245,7 +245,7 @@ function Index() {
         </div>
 
         <p className="text-center text-xs text-muted-foreground mt-6">
-          © {new Date().getFullYear()} نادي الطلاب — جميع الحقوق محفوظة
+          © {new Date().getFullYear()} نادي الإبداع وريادة الأعمال — جميع الحقوق محفوظة
         </p>
       </div>
     </div>
