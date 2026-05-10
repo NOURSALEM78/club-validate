@@ -72,9 +72,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "تحقق من تسجيل عضوية النادي" },
-      { name: "description", content: "صفحة التحقق من عضوية النادي وتسجيل الأعضاء الجدد." },
-      { property: "og:title", content: "تحقق من تسجيل عضوية النادي" },
+      { title: "نادي الإبداع وريادة الأعمال — تحقق من العضوية" },
+      { name: "description", content: "تحقق من عضويتك في نادي الإبداع وريادة الأعمال أو سجّل كعضو جديد." },
+      { property: "og:title", content: "نادي الإبداع وريادة الأعمال" },
       { property: "og:description", content: "تحقق من عضويتك أو سجّل في النادي بسهولة." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
