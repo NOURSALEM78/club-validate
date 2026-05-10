@@ -74,11 +74,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "نادي الإبداع وريادة الأعمال — تحقق من العضوية" },
       { name: "description", content: "تحقق من عضويتك في نادي الإبداع وريادة الأعمال أو سجّل كعضو جديد." },
-      { property: "og:title", content: "نادي الإبداع وريادة الأعمال" },
-      { property: "og:description", content: "تحقق من عضويتك أو سجّل في النادي بسهولة." },
+      { property: "og:title", content: "نادي الإبداع وريادة الأعمال — تحقق من العضوية" },
+      { property: "og:description", content: "تحقق من عضويتك في نادي الإبداع وريادة الأعمال أو سجّل كعضو جديد." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "نادي الإبداع وريادة الأعمال — تحقق من العضوية" },
+      { name: "twitter:description", content: "تحقق من عضويتك في نادي الإبداع وريادة الأعمال أو سجّل كعضو جديد." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/BbcqiTKo1gNrlJDHr0nTlooXDCP2/social-images/social-1778438424039-كمهنتالبي.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/BbcqiTKo1gNrlJDHr0nTlooXDCP2/social-images/social-1778438424039-كمهنتالبي.webp" },
     ],
     links: [
       {
